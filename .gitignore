@@ -1,0 +1,13 @@
+/classes
+/checkouts
+profiles.clj
+pom.xml
+pom.xml.asc
+*.class
+/.lein-*
+/.nrepl-port
+/.prepl-port
+/.calva
+/.claude
+/.clj-kondo
+/.lsp
