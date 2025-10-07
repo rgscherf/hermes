@@ -1,4 +1,4 @@
-# hermes: the fast Clojure MCP server.
+# hermes: the fast Clojure MCP server
 
 ```
 But come now, tell me this, resourceful son of Maia:
@@ -17,7 +17,7 @@ Hermes connects to your running nREPL (using `.nrepl-port`) and exposes a single
 
 Hermes requires the JVM installed on your system, and the `java` command on your path.
 
-Clone this repository and place `target/hermes-standalone.jar` somewhere permanent--call the absolute path to that location $HERMES_PATH. Then configure your tool of choice with:
+Clone this repository and place `target/hermes-standalone.jar` somewhere permanent--call the absolute path to that location `$HERMES_PATH`. Then configure your tool of choice with:
 
 ```json
 {
@@ -33,7 +33,7 @@ Clone this repository and place `target/hermes-standalone.jar` somewhere permane
 If you're a Claude Code user, you can do this from the command line:
 
 ```bash
-claude mcp add-json clojure-repl '{ "type": "stdio", "command": "java", "args": [ "-jar", "$HERMES_PATH", "."] }'
+claude mcp add-json clojure-repl --scope user '{ "type": "stdio", "command": "java", "args": [ "-jar", "$HERMES_PATH", "."] }'
 ```
 
 `eval_clojure`'s description implores the agent to use the REPL as frequently as possible. It may be helpful to reinforce those instructions in your `CLAUDE.md` or other context file; an example CLAUDE.md is included in this repository.
