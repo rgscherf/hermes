@@ -7,6 +7,8 @@ Or did some god or mortal man give it you--a noble gift--and teach you heavenly 
 For wonderful is this new-uttered sound I hear,
 The like of which I vow that no man nor god dwelling on Olympus ever yet has known but you,
 O thievish son of Maia.
+
+- Homeric Hymn to Hermes
 ```
 
 Hermes connects to your running nREPL (using `.nrepl-port`) and exposes a single tool, `eval_clojure`, that gives your agent access to the very same REPL you're using to write Clojure code.
