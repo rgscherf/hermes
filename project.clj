@@ -8,6 +8,6 @@
                  [org.clojure/data.json "2.4.0"]]
   :source-paths ["src"]
   :main hermes.core
-  :aot [hermes.core]
   :uberjar-name "hermes-standalone.jar"
-  :repl-options {:init-ns hermes.core})
+  :repl-options {:init-ns hermes.core}
+  :profiles {:uberjar {:aot [hermes.core]}})

@@ -11,3 +11,6 @@ pom.xml.asc
 /.claude
 /.clj-kondo
 /.lsp
+/target/repl-port
+/target/classes/*
+/target/stale/*
